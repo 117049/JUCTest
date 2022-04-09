@@ -16,7 +16,7 @@ public class CountDownLantchTest {
         new Thread(() -> {
             System.out.println("begin.....");
             try {
-                sleep(1);
+                sleep(100);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
@@ -27,7 +27,7 @@ public class CountDownLantchTest {
         new Thread(() -> {
             System.out.println("begin.....");
             try {
-                sleep(3);
+                sleep(100);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
@@ -38,7 +38,7 @@ public class CountDownLantchTest {
         new Thread(() -> {
             System.out.println("begin.....");
             try {
-                sleep(5);
+                sleep(100);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
